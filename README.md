@@ -42,9 +42,38 @@ A API vem de o openWeatherMap.
 
 É necessário que tenha uma conta para ter acesso a sua própria API.
 
-##
+## Fluxo Airflow Dags
 
+### Configuração da DAG
 
+```python
+@dag(
+    dag_id='youtube_weather_pipeline',
+    schedule='0 */1 * * *',  # Executa a cada 1 hora
+    start_date=datetime(2026, 2, 7),
+    catchup=False,  # Não executa datas passadas
+    tags=['weather', 'etl', 'se inscreve no canal!']
+)
+
+### Tasks Definidas
+```
+```python
+@task
+def extract():
+    extract_weather_data(url)
+
+@task
+def transform():
+    df = data_transformations()
+    df.to_parquet('/opt/airflow/data/temp_data.parquet')
+
+@task
+def load():
+    df = pd.read_parquet('/opt/airflow/data/temp_data.parquet')
+    load_weather_data('sp_weather', df)
+
+# Dependências
+```
 
 
 
