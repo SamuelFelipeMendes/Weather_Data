@@ -10,20 +10,21 @@ Este projeto demonstra um fluxo simples de **Extração → Transformação → 
 
 ##  Tecnologias
 
-<ol> Core
+<ol Core> 
   <li> Python 3.14+ - Linguagem principal </li>
   <li> Apache Airflow 3.1.7 - Orquestração do pipeline </li>
   <li> PostgreSQL 14 - Banco de dados relacional </li>
   <li> Docker & Docker Compose - Containerização </li>
 </ol>
 
-<ol> Bibliotecas Python
+<ol Bibliotecas Python > 
   <li> pandas - Manipulação e transformação de dados </li>
   <li> requests - Requisições HTTP para a API </li>
   <li> SQLAlchemy - ORM para interação com o banco de dados </li>
   <li> psycopg2 - Driver PostgreSQL </li>
   <li> python-dotenv - Gerenciamento de variáveis de ambiente </li>
 </ol>
+
 ##  Descrição
 
 O projeto realiza o seguinte fluxo:
@@ -39,6 +40,7 @@ A API vem de o openWeatherMap.
 É necessário que tenha uma conta para ter acesso a sua própria API.
 
 ##
+
 
 
 
