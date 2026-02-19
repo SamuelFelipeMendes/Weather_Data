@@ -8,25 +8,6 @@ Este projeto demonstra um fluxo simples de **Extração → Transformação → 
 
 ##  Estrutura do final do Projeto
 
-Weather_data
-│   
-├── config/  
-│   └── .env -> config do banco e da API
-├── data/
-│	 └── weather_data.json -> .json extraído da API
-├── notebooks/
-│	 └── analysis_data.ipynb -> Visualização dos dados
-├── src/
-│   ├── Extract_data.py
-│   ├── Load_data.py
-│   └── Tranform_data.py
-├── .env
-├── requirements.txt
-├── Teste_exe.py -> Arquivo de teste de execução
-├── docker-compose.yaml
-└── README.md
-
-
 ##  Tecnologias
 
 ### Core
