@@ -7,22 +7,9 @@ Este projeto demonstra um fluxo simples de **Extração → Transformação → 
 ---
 
 ##  Estrutura do final do Projeto
-│   
-├── config/  
-│   └── .env -> config do banco e da API
-├── data/
-│	 └── weather_data.json -> .json extraído da API
-├── notebooks/
-│	 └── analysis_data.ipynb -> Visualização dos dados
-├── src/
-│   ├── Extract_data.py
-│   ├── Load_data.py
-│   └── Tranform_data.py
-├── .env
-├── requirements.txt
-├── Teste_exe.py -> Arquivo de teste de execução
-├── docker-compose.yaml
-└── README.md
+
+<img width="939" height="918" alt="file_00000000448c720e89e8189c3d7738a7" src="https://github.com/user-attachments/assets/7d4e0c72-c04b-49ba-96d8-e6c464601c5d" />
+
 
 ##  Descrição
 
@@ -39,3 +26,4 @@ A API vem de o openWeatherMap.
 É necessário que tenha uma conta para ter acesso a sua própria API.
 
 ##
+
