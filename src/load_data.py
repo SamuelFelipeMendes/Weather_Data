@@ -14,8 +14,8 @@ load_dotenv(env_path)
 user = os.getenv('user')
 password = os.getenv('password')
 database = os.getenv('database')
-#host = 'host.docker.internal'
-host = 'localhost'
+host = 'host.docker.internal'
+#host = 'localhost'
 
 def get_engine():
     return create_engine(
@@ -25,7 +25,7 @@ def get_engine():
 
 engine = get_engine()
 
-def load_data(table_name:str, df):
+def load_weather_data(table_name:str, df):
     df.to_sql(
 
         name = table_name,

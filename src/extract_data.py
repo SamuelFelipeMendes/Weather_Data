@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
-def extract_data(url:str) -> list:
+def extract_weather_data(url:str) -> list:
     response = requests.get(url) # armazeno uma requisição get da api em uma variável
     data = response.json()       # Armazeno a variável com os dados solicitados a api em um json e armazenom em outra variável
 
