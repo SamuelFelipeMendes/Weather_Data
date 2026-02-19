@@ -8,8 +8,7 @@ Este projeto demonstra um fluxo simples de **Extração → Transformação → 
 
 ##  Estrutura do final do Projeto
 
-<img width="939" height="918" alt="file_00000000448c720e89e8189c3d7738a7" src="https://github.com/user-attachments/assets/7d4e0c72-c04b-49ba-96d8-e6c464601c5d" />
-
+<img width="817" height="478" alt="image" src="https://github.com/user-attachments/assets/88c5fc62-c146-4a74-a94f-dd60a8d01e41" />
 
 ##  Descrição
 
@@ -26,4 +25,5 @@ A API vem de o openWeatherMap.
 É necessário que tenha uma conta para ter acesso a sua própria API.
 
 ##
+
 
