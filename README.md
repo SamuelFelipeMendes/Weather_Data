@@ -48,11 +48,11 @@ A API vem de o openWeatherMap.
 
 ```python
 @dag(
-    dag_id='youtube_weather_pipeline',
+    dag_id='weather_pipeline',
     schedule='0 */1 * * *',  # Executa a cada 1 hora
     start_date=datetime(2026, 2, 7),
     catchup=False,  # Não executa datas passadas
-    tags=['weather', 'etl', 'se inscreve no canal!']
+    tags=['weather', 'etl']
 )
 
 ### Tasks Definidas
