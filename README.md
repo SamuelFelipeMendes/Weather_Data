@@ -8,6 +8,8 @@ Este projeto demonstra um fluxo simples de **Extração → Transformação → 
 
 ##  Estrutura do final do Projeto
 
+<img width="1684" height="685" alt="Fluxo" src="https://github.com/user-attachments/assets/e32bc670-6de2-474d-b686-e0aca44c0e86" />
+
 ##  Tecnologias
 
 ### Core
@@ -74,6 +76,7 @@ def load():
 
 # Dependências
 ```
+
 
 
 
